@@ -7,9 +7,6 @@ __v0_jsx-dev-runtime.ts
 .vercel/
 
 # Environment variables (secrets — local only, never push to GitHub)
-.env
-.env.local
-.env.production
 .env.*.local
 !.env.local.example
 
@@ -25,3 +22,4 @@ node_modules
 /playwright/.cache/
 /e2e/test-results/
 /e2e/playwright-report/
+config.bat

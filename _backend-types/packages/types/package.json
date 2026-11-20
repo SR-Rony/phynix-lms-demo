@@ -6,8 +6,8 @@
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "scripts": {
-    "build": "bunx tsc -p tsconfig.json",
-    "dev": "bunx tsc -p tsconfig.json --watch"
+    "build": "node init && bunx tsc -p tsconfig.json",
+    "dev": "node init && bunx tsc -p tsconfig.json --watch"
   },
   "dependencies": {
     "zod": "^3.24.1"
